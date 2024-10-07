@@ -7,9 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      colors: {},
+      backgroundImage: {
+        "banner-img": "url('/banner.png')",
+        "background-img": "url('/background.png')",
+      },
+      fontFamily: {
+        phudu:
+          "url('https://fonts.googleapis.com/css2?family=Phudu:wght@300..900&display=swap')",
       },
     },
   },

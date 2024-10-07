@@ -13,8 +13,8 @@ module.exports = {
         "background-img": "url('/background.png')",
       },
       fontFamily: {
-        phudu:
-          "url('https://fonts.googleapis.com/css2?family=Phudu:wght@300..900&display=swap')",
+        phudu: ["Phudu", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
     },
   },

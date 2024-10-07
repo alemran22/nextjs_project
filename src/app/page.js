@@ -17,7 +17,7 @@ export default function Home() {
         </div>
         {/* download sonik button */}
         <button className="flex flex-row items-center justify-start gap-1 md:gap-8 pl-4 md:pl-[117px] pb-4 md:pb-[117px]">
-          <h4 className=" uppercase text-2xl md:text-[40px] font-semibold">
+          <h4 className="font-phudu uppercase text-2xl md:text-[40px] font-semibold">
             Download sonik
           </h4>
           <Image alt="arrow" src={"/arrow.png"} width={52} height={52} />
@@ -111,14 +111,14 @@ export default function Home() {
           <div className="w-full relative flex flex-col justify-center ">
             {/* texts div */}
             <div className="">
-              <h2 className="uppercase text-white text-[30px] md:text-[54px] font-semibold font-phudu mb-3 md:mb-8">
+              <h2 className="uppercase text-white text-[30px] md:text-[58px] font-semibold font-phudu mb-3 md:mb-6">
                 your city's entertainment all in one place
               </h2>
-              <p className="font-medium text-xl">
+              <p className="font-medium text-lg md:text-xl  font-inter">
                 Discover your favorite events with ease
               </p>
               {/* button container */}
-              <div className="flex flex-row gap-3 md:gap-8 mt-4 md:mt-28">
+              <div className="flex flex-row gap-3 md:gap-8 mt-4 md:mt-20">
                 {/* apple button */}
                 <button className="bg-[#383535] flex flex-row items-center gap-2 px-4 md:px-6 py-1 md:py-2 rounded-full">
                   <Image
@@ -127,7 +127,7 @@ export default function Home() {
                     width={29}
                     height={29}
                   />
-                  <p className="text-2xl">iOS</p>
+                  <p className="text-2xl font-inter">iOS</p>
                 </button>
                 {/* android button */}
                 <button className="bg-[#383535] flex flex-row items-center gap-2 px-4 md:px-6 py-1 md:py-2 rounded-full">
@@ -137,7 +137,7 @@ export default function Home() {
                     width={29}
                     height={29}
                   />
-                  <p className="text-2xl">ANDROID</p>
+                  <p className="text-2xl font-inter">ANDROID</p>
                 </button>
               </div>
             </div>
@@ -205,10 +205,10 @@ export default function Home() {
           </div>
           {/* middle */}
           <div className="md:w-6/12 w-full">
-            <h2 className="uppercase text-3xl font-semibold">
+            <h2 className="uppercase text-[40px] font-semibold font-phudu">
               Discover more with the app
             </h2>
-            <div className="mt-7">
+            <div className="mt-7 font-inter">
               {/* 1 */}
               <div className="flex flex-row items-center gap-4 pl-2">
                 <Image
@@ -274,7 +274,7 @@ export default function Home() {
       {/* footer start */}
       <footer className=" bg-[#121212] py-[61px]">
         {/* top */}
-        <div className="flex flex-col md:flex-row gap-3 justify-between items-start md:items-center px-[88px] md:px-0">
+        <div className="flex flex-col md:flex-row gap-3 justify-between items-start px-[88px] md:px-0">
           {/* left */}
           <div className="w-full md:pl-[89px] ">
             <Image alt="sonik" src={"/sonik.png"} width={97} height={28} />
@@ -298,7 +298,7 @@ export default function Home() {
           </div>
         </div>
         {/* copyright */}
-        <div className="text-center text-[#585858] pt-10 text-base">
+        <div className="text-center text-[#585858] pt-10 text-base font-inter">
           <a href="#" className="underline">
             Terms & Conditions
           </a>{" "}

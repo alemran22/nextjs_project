@@ -26,7 +26,7 @@ const LandingPage = () => {
           </section>
           {/* hero section end*/}
           {/* main starts here */}
-          <main className=" md:pt-[260px] pb-16 md:pb-[123px] px-4 md:px-0">
+          <main className=" md:pt-[260px] md:pb-[123px] px-4 md:px-0">
             {/*  city's entertainment start */}
             <section className="flex md:flex-row flex-col-reverse justify-between gap-[140px] md:gap-[82px] md:pt-[74px] md:pl-[170px] md:pr-[139px] md:pb-[90px] py-20 md:py-0">
               {/*  left card */}
@@ -206,7 +206,7 @@ const LandingPage = () => {
               </div>
               {/* middle */}
               <div className="md:w-6/12 w-full">
-                <h2 className="uppercase text-[40px] font-semibold font-phudu">
+                <h2 className="uppercase text-3xl md:text-[40px] font-semibold font-phudu">
                   Discover more with the app
                 </h2>
                 <div className="mt-7 font-inter">
@@ -280,7 +280,7 @@ const LandingPage = () => {
           {/* top */}
           <div className="flex flex-col md:flex-row gap-3 justify-between items-start px-[88px] md:px-0">
             {/* left */}
-            <div className="w-full   ">
+            <div className="w-full ">
               <Image alt="sonik" src={"/sonik.png"} width={97} height={28} />
             </div>
             {/* middle */}

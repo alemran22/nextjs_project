@@ -11,6 +11,7 @@ module.exports = {
       backgroundImage: {
         "banner-img": "url('/banner.png')",
         "background-img": "url('/background.png')",
+        "event-banner-bg": "url('/event-img/event-banner.png')",
       },
       fontFamily: {
         phudu: ["Phudu", "sans-serif"],

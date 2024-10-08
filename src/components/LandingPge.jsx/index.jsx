@@ -280,7 +280,7 @@ const LandingPage = () => {
           {/* top */}
           <div className="flex flex-col md:flex-row gap-3 justify-between items-start px-[88px] md:px-0">
             {/* left */}
-            <div className="w-full md:flex justify-center pl-32 border">
+            <div className="w-full md:flex justify-center pl-32 ">
               <Image alt="sonik" src={"/sonik.png"} width={97} height={28} />
             </div>
             {/* middle */}
